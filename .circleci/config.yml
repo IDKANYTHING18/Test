@@ -20,7 +20,7 @@ jobs:
       OUTPUT: PixysOS*.zip
 
     executor:
-      name: "2 X-large"
+      name: "docker-executer"
       cpu: 8
       memory: 32GB
       image: ubuntu:22.04
