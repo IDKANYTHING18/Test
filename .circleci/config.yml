@@ -20,9 +20,10 @@ jobs:
       OUTPUT: PixysOS*.zip
 
     executor:
-      name: "ubuntu/22.04"
+      name: "2 X-large"
       cpu: 8
       memory: 32GB
+      image: ubuntu:22.04
 
     steps:
       - run:
