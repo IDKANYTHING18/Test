@@ -1,0 +1,19 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: ubuntu:22.04
+
+    steps:
+      - checkout
+
+      - run:
+          name: Run Tests
+          command: |
+            # Replace this section with your actual test commands
+            echo "Running tests..."
+            # Add your test commands here
+            # For example:
+            # npm install
+            # npm test
